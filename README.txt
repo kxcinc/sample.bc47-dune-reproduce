@@ -1,5 +1,7 @@
 ## sample.bc47-dune-reproduce
 
+Bug report filed: https://github.com/ocaml/dune/issues/9272
+
 This is a sample project that reproduce a regression introduced
 by Dune 3.11.0 that might have been caused by
 https://github.com/ocaml/dune/pull/8361 (suggested by @emillon at
