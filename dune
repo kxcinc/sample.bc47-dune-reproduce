@@ -1,0 +1,6 @@
+(executable
+ (name hello)
+ (promote (until-clean))
+ (libraries
+   camomile ;; it seems that this line is critical to the bug reproduction
+))
