@@ -2,7 +2,7 @@
 
 set -xe
 
-# opam switch create . 5.1.0
+opam switch create . 5.1.0
 eval $(opam env --switch=. --set-switch)
 
 opam install -y dune.3.11.0 camomile.2.0.0
